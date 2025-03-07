@@ -90,7 +90,10 @@ export function Login() {
         </>
       )}
       <Text align="Center">
-        Do not have an account? <Link to={getRegisterPath(server)}>Register</Link>
+        Don't have an account on We2.ee yet?{' '}
+        <a href="https://we2.ee/about" target="_blank" rel="noopener noreferrer">
+          Get Started
+        </a>
       </Text>
     </Box>
   );
