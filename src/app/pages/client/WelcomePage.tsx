@@ -16,18 +16,7 @@ export function WelcomePage() {
           <PageHero
             icon={<img width="70" height="70" src={CinnySVG} alt="We2.ee Logo" />}
             title="Welcome to We2.ee"
-            subTitle={
-              <span>
-                Yet another matrix client.{' '}
-                <a
-                  href="https://github.com/cinnyapp/cinny/releases"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                >
-                  v4.5.1
-                </a>
-              </span>
-            }
+            subTitle={<span>Encrypted Chat for the People.</span>}
           >
             <Box justifyContent="Center">
               <Box grow="Yes" style={{ maxWidth: toRem(300) }} direction="Column" gap="300">

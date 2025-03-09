@@ -49,7 +49,7 @@ export function About({ requestClose }: AboutProps) {
                       <Text size="H3">We2.ee</Text>
                       <Text size="T200">v{cons.version}</Text>
                     </Box>
-                    <Text>Yet another matrix client.</Text>
+                    <Text>Encrypted Chat for the People.</Text>
                   </Box>
 
                   <Box gap="200" wrap="Wrap">
